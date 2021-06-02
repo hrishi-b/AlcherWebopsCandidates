@@ -59,11 +59,19 @@ input {
 }
 .btn-1:hover{
     background: #2b2bff;
+    transition: display 5s;
 }
 .btn-1:not(:hover) .hide {
     display: none;
-    transition: display 5s;
 }
+
+.avg-img{
+  width: 300px;
+}
+.avg-img:hover{
+  transform: scale(1.08);
+}
+
 footer {
     background: #16222A;
     background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
