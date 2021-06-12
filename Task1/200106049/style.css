@@ -64,11 +64,18 @@ input {
 .btn-1:not(:hover) .hide {
     display: none;
 }
+.movie-div{
+  display: grid;
+  background:rgba(224, 224, 224);
+  border-radius: 15px;
+  padding: 25px 15px;
+  margin-top: 15px;
+}
 
 .avg-img{
   width: 300px;
 }
-.avg-img:hover{
+.movie-div:hover{
   transform: scale(1.08);
 }
 

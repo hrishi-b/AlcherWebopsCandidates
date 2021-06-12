@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
     <title>Alcher Stream</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
         <div id="header">
             <div style="display: flex;flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
                 <img style="margin: 0px 30px 15px 0px;" src="logo.svg" height="25px">
-                <input type="text" placeholder="Search Movie Here"/>
+                <input id="search" type="text" placeholder="Search Movie Here"/>
             </div>
             <div><img src="profile.svg" height="25px"></div>
         </div>
@@ -32,40 +32,37 @@
     <div style="margin: 30px 0px 30px 0px; padding: 30px;">
       <h2 style="margin-bottom: 20px;">BLOCKBUSTER HITS</h2>
       <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly;">
-        <div style="display: grid">
+        <div class="movie-div">
           <img src="end-game.png" class="avg-img">
-          Avengers: Endgame
+          <p class="info">Avengers: Endgame</p>
         </div>
-        <div style="display: grid">
+        <div class="movie-div">
           <img src="infinity war.jpg" class="avg-img">
-          Avengers: Infinity War
+          <p class="info">Avengers: Infinity War</p>
         </div>
-        <div style="display: grid;">
+        <div class="movie-div">
           <img src="age of ultron.jpg" class="avg-img">
-           Avengers: Age of Ultron
+          <p class="info">Avengers: Age of Ultron</p>
         </div>
-        <div style="display: grid;">
+        <div class="movie-div">
           <img src="assemble.jpg" class="avg-img">
-           The Avengers
+          <p class="info">The Avengers</p>
         </div>
-      </div>
-      <h2 style="margin-bottom: 20px; margin-top: 30px;">BLOCKBUSTER HITS</h2>
-      <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly;">
-        <div style="display: grid">
+        <div class="movie-div">
           <img src="end-game.png" class="avg-img">
-          Avengers: Endgame
+          <p class="info">Avengers: Endgame</p>
         </div>
-        <div style="display: grid">
+        <div class="movie-div">
           <img src="infinity war.jpg" class="avg-img">
-          Avengers: Infinity War
+          <p class="info">Avengers: Infinity War</p>
         </div>
-        <div style="display: grid;">
+        <div class="movie-div">
           <img src="age of ultron.jpg" class="avg-img">
-           Avengers: Age of Ultron
+          <p class="info">Avengers: Age of Ultron</p>
         </div>
-        <div style="display: grid;">
+        <div class="movie-div">
           <img src="assemble.jpg" class="avg-img">
-           The Avengers
+          <p class="info">The Avengers</p>
         </div>
       </div>
     </div>
@@ -135,6 +132,8 @@
       
         </div>
         </div>
-      </footer>        
+      </footer>
+
+      <script src="script.js"></script>
 </body>
 </html>
